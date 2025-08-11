@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Subdomain takeover door Computest, Ramin Töpfer"
+    return '<a href="https://www.linkedin.com/in/ramintopfer/" target="_blank">Subdomain takeover by Ramin Töpfer</a>'
